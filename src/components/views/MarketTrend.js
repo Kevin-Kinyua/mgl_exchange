@@ -27,7 +27,7 @@ const tableData = [
     key: '2',
     name:'ETH',
     network:'Ethereum',
-    price:'459.24',
+    price:'3,701.30',
     change:'2.54',
   },
   {
