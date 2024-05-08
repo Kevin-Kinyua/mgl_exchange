@@ -362,7 +362,7 @@ class UserService {
 
     
     static emailValidation(enteredEmail){
-        var mail_format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        var mail_format = /^\w+([\.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/;
 
         if(enteredEmail.match(mail_format))
         {
